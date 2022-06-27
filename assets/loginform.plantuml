@@ -1,0 +1,8 @@
+@startuml loginform
+:webpage can starts in chrome;
+:enter username and password;
+while (correct login and password ?) is (Yes)
+  :It display welcome for which user can login;
+endwhile (No)
+::It display invalid username and password;
+@enduml
