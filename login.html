@@ -1,0 +1,169 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<title>login</title>
+
+
+
+<style>
+
+body
+
+{
+
+background:#ffcc00;;
+
+}
+
+
+.div
+
+{
+
+width:350px;
+
+margin:auto;
+
+margin:10 0 0 450px;
+
+overflow:hidden;
+
+padding:75px;
+
+background:#003300;
+
+}
+
+h2
+
+{
+
+text-align:center;
+
+padding:10px;
+
+color:#003300;
+
+}
+
+label1
+
+{
+
+color:white;
+
+padding-left:10px;
+
+}
+
+
+.inputtext
+
+{
+
+width:300px;
+
+height:30px;
+
+border:none;
+
+border-radius:2px;
+
+padding-left:8px;
+
+}
+
+
+#logbutton
+
+{
+
+width:300px;
+
+height:30px;
+
+border-radius:10px;
+
+padding-left:7px;
+
+color:black;
+
+font-size:16px;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h2>login</h2>
+
+<div class="div">
+
+<form name="myform" method="post">
+
+<label>user name</label>
+
+<input type ="text" name="uname" class="inputtext" placeholder="username">
+
+<br><br>
+
+<label>password </label>
+
+<input type ="password" name="pass" class="inputtext" placeholder="password">
+
+<br><br>
+
+<input type="button" name="log" id="logbutton" value="login" onclick="myfunction()">
+
+<br><br>
+
+</form>
+
+</div>
+
+<script>
+
+        function myfunction()
+
+        {
+               
+                var un=document.forms["myform"]["uname"].value;
+             
+                var pw=document.forms["myform"]["pass"].value;
+ 
+
+
+       
+  if(un=="athi" && pw=="123"){
+  alert("welcome athi");
+}
+else if(un=="harine" && pw=="1234") {
+alert("welcome harine");
+}
+else if(un=="sankar" && pw=="12345")
+
+{
+   
+
+       alert("welcome sankar");
+
+     
+}
+else{
+    alert("Invaild user and password!!!");
+}
+
+}
+
+</script>
+
+</body>
+
+
+
+</html>
