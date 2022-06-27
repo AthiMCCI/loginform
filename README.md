@@ -2,7 +2,7 @@
    First, you need to create two Files one HTMLFile and another one is CSS File. After creating these files Type the codes into your file. Then  create an HTML file with the name of index. html and Type the  codes in your HTML file.
 ### STEPS TO CREATE:
 - We need to design an HTML form.
-- Next, we need to write a PHP script to check the login authentication.
+- Next, we need  to check the login authentication.
 - If the login is correct, then we need to redirect the page to the protected area.
 
 ### AUTHENTICATION USER IN HTML:
