@@ -12,7 +12,7 @@
 - If user give correct user name anf password.It say welcome to user
 - If user give wrong username and password. It says invalid user name and password.
 ### RESULT:
-     Finally It display wlecome for which user can login.
+     Finally It display wlecome for which user can login. 
 
 # Flow chat:
-![loginform](assets/loginform.png.png) 
+![loginform](assets/loginform.png) 

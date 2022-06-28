@@ -3,6 +3,9 @@
 :enter username and password;
 while (correct login and password ?) is (Yes)
   :It display welcome for which user can login;
+  :Another page dowload button  and logout button will be show;
+  :user can click the dowload button.It dowload user file;
+  :user can click the logout button.It logout and goes to login page;
 endwhile (No)
 ::It display invalid username and password;
 @enduml
